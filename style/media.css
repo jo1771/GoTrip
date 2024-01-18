@@ -1,0 +1,104 @@
+@media screen and (max-width:1380px){
+    .header__nav{
+        gap: 15px;
+    }
+    .banner-title{
+        font-size: clamp(1.875rem, 0.609rem + 6.33vw, 5rem);
+    }
+    .banner-text{
+        font-size: clamp(1.25rem, 0.744rem + 2.53vw, 2.5rem);
+    }
+    .allinfo__aboutus-title-text{
+        font-size: clamp(1.25rem, 0.744rem + 2.53vw, 2.5rem);
+    }
+    .allinfo__aboutus-piclor-text{
+        font-size: clamp(0.875rem, 0.774rem + 0.51vw, 1.125rem);
+    }
+}
+@media screen and (max-width:1130px){
+    .catalog__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+@media screen and (max-width:900px){
+    .banner-text{
+        margin-bottom: 20px;
+    }
+    .allinfo__aboutus-piclor{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:800px){
+    .header__nav-list{
+        gap: 10px;
+    }
+    .banner-title{
+        margin-bottom: 0px;
+    }
+    .allinfo__aboutus-title-text{
+        margin-bottom: 35px;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .contact__lorem{
+        width: auto;
+    }
+}
+@media screen and (max-width:660px){
+    .header__nav-list{
+        flex-direction: column;
+    }
+    .banner{
+        height: 600px;
+    }
+    .aboutus{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:520px){
+    .header__nav{
+        gap: 5px;
+        flex-direction: column;
+    }
+    .header__nav-list{
+        gap: 5px;
+    }
+    .aboutus{
+        margin-top: 25px;
+    }
+    .allinfo__aboutus-title-text{
+        margin-bottom: 20px;
+    }
+    .allinfo__aboutus-piclor-img{
+        width: 400px;
+    }
+    .allinfo__aboutus-piclor{
+        gap: 10px;
+    }
+}
+@media screen and (max-width:470px){
+    .banner{
+        height: 400px;
+    }
+    .aboutus{
+        margin-top: 15px;
+    }
+    .allinfo__aboutus-piclor-img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:320px){
+    .banner{
+        height: 440px;
+    }
+    .aboutus{
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width:px){
+    
+}

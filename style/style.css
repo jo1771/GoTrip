@@ -1,0 +1,238 @@
+@import url(./font.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Rubik-regular';
+}
+.header{
+    background: #3E8989;
+    height: auto;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+}
+.header__nav-logo{
+    width: 86px;
+    height: 26px;
+    font-size: 30px;
+}
+.header__nav-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__nav-list-item-link{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    transition: 0.1s;
+}
+.header__nav-list-item-link:hover{
+    border-bottom: 3px solid #fff;
+    border-radius: 2px;
+}
+.header__nav-search {
+    display: flex;
+}
+.header__nav-search-input {
+    border-radius: 20px 0 0 20px;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+}
+.header__nav-search-button {
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    padding: 10px 14px;
+    outline: none;
+    border: none;
+    background: #295E5E;
+}
+.banner{
+    background: url(../img/bannerpic.png) no-repeat center/cover;
+    height: 800px;
+    min-height: 440px;
+}
+.banner__wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-title{
+    color: #fff;
+    font-family: 'Rubik-semibold';
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 95px;
+    margin-bottom: 20px;
+}
+.banner-text{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+.banner-more{
+    color: #fff;
+    line-height: 22px;
+    width: 200px;
+    height: 50px;
+    background-color: #B4436C;
+    border-radius: 30px;
+    padding: 14px 78px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+.banner-more:hover{
+    color: #B4436C;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.aboutus{
+    margin-top: 80px;
+    height: auto;
+}
+.allinfo__aboutus-title-text{
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.allinfo__aboutus-piclor{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.allinfo__aboutus-piclor-img{
+    width: auto;
+    height: auto;
+}
+.allinfo__aboutus-piclor-texts{
+    display: flex;
+    flex-direction: column;
+}
+.allinfo__aboutus-piclor-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.catalog{
+    margin: 97px 0 100px;
+}
+.catalog-title{
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 53px;
+}
+.catalog__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.catalog__card{
+    text-align: center;
+    transition: 0.3s;
+}
+.catalog__card:hover{
+    color: #B4436C;
+    transform: scale(1.1);
+}
+.catalog__card-img{
+    width: 263px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.catalog__card-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.contacts{
+    margin-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-title{
+    color: #3E8989;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+.contact__lorem{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 555px;
+    height: 48px;
+}
+.contact-call{
+    width: 166px;
+    height: 68px;
+    margin-top: 78px;
+}
+.contact-call-container{
+    display: flex;
+    flex-direction: column;
+    height: 68px;
+    width: 168px;
+    justify-content: space-between;
+}
+.tel{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.email{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+}
+.footer{
+    background-color: #3E8989;
+    height: 150px;
+}
+.footer__nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 0 15px;
+}
+.footer__nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.footer__nav-list-item-link{
+    color: #fff;
+}
+.footer__nav-text{
+    color: #fff;
+} 
